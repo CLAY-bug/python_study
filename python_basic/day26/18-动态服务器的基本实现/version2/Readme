@@ -1,0 +1,2 @@
+1、web_server类似于apache（Nginx），mini_frame类似于django
+2、不同的动态url请求，跳转到不同的函数

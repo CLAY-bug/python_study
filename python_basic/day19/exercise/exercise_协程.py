@@ -1,0 +1,29 @@
+# 作者 ： 赖鑫
+# 2022年06月20日22时36分17秒
+import time
+
+
+def work1():
+    while True:
+        print('----work1----')
+        yield
+        time.sleep(0.5)
+
+
+def work2():
+    while True:
+        print('----work2----')
+        yield
+        time.sleep(0.5)
+
+
+def main():
+    # w1 = work1()
+    # w2 = work2()
+    while True:
+        next(work1())
+        next(work2())
+
+
+if __name__ == '__main__':
+    main()
