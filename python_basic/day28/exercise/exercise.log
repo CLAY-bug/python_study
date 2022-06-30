@@ -1,0 +1,4 @@
+2022-06-30 19:23:19,986 - 把日志既输出到文件又显示到控制台.py - 13853:[line:30]INFO: this is info log
+2022-06-30 19:23:19,986 - 把日志既输出到文件又显示到控制台.py - 13853:[line:31]WARNING: this is warning log
+2022-06-30 19:23:19,987 - 把日志既输出到文件又显示到控制台.py - 13853:[line:32]ERROR: this is error log
+2022-06-30 19:23:19,987 - 把日志既输出到文件又显示到控制台.py - 13853:[line:33]CRITICAL: this is critical log
